@@ -1,0 +1,19 @@
+name: "mi primer sitio web"
+output_dir: "."
+navbar:
+  title: "homepage"
+  left:
+    - text: "El mejor youtuber"
+      href: https://www.youtube.com/user/DragonHunter926
+    - text: "Tareas"
+      menu:
+        - text: "Tarea1"
+          href: Tarea1.html
+        - text: "Tarea2"
+          href: nottem.html
+        - text: "Tarea3"
+          href: diapositivas/tarea3.html
+
+output:
+  html_document:
+    theme: yeti
